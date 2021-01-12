@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+}
+
+input {
+  display: block;
+  height: 56px;
+  width: 90%;
+  max-width: 300px;
+  box-sizing: border-box;
+  margin: 10px 0;
+  background-color: transparent;
+  border: 1px dashed gray;
+  border-radius: 8px;
+  outline: none;
+  padding: 4px 16px;
+  font-size: 32px;
+}
