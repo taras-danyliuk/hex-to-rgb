@@ -17,6 +17,15 @@ body {
   background: #f7f7f8;
 }
 
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  fill: var(--color);
+  z-index: 100;
+  width: 65px;
+}
+
 input {
   display: block;
   height: 7vh;
